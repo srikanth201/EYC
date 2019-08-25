@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[hie...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58" started-at="2019-08-25T13:28:43Z" finished-at="2019-08-25T13:28:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58" started-at="2019-08-25T13:28:43Z" finished-at="2019-08-25T13:28:43Z">
+      <class name="Actitime.Login">
+        <test-method status="SKIP" signature="Loginapp(java.lang.String, java.lang.String)[pri:0, instance:Actitime.Login@1810399e]" name="Loginapp" duration-ms="0" started-at="2019-08-25T18:58:43Z" finished-at="2019-08-25T18:58:43Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method Loginapp but has not been marked @Optional or defined
+in C:\Users\avinash\AppData\Local\Temp\testng-eclipse-1936646673\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method Loginapp but has not been marked @Optional or defined
+in C:\Users\avinash\AppData\Local\Temp\testng-eclipse-1936646673\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:363)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginapp -->
+      </class> <!-- Actitime.Login -->
+      <class name="pract.prg1">
+        <test-method status="PASS" signature="prg1()[pri:0, instance:pract.prg1@6d78f375]" name="prg1" duration-ms="15" started-at="2019-08-25T18:58:43Z" finished-at="2019-08-25T18:58:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hie...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- prg1 -->
+      </class> <!-- pract.prg1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
